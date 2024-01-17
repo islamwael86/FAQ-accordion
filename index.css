@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "customFont1";
+  src: url("./assets/fonts/static/WorkSans-Bold.ttf");
+}
+@font-face {
+  font-family: "customFont2";
+  src: url("./assets/fonts/static/WorkSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "customFont3";
+  src: url("./assets/fonts/static/WorkSans-Regular.ttf");
+}
+body {
+  margin: 0;
+}
+
+main {
+  height: 97vh;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(275, 100%, 97%);
+}
+
+.image {
+  height: 324px;
+  width: 1460px;
+  position: absolute;
+  top: -110px;
+}
+
+.box {
+  background-color: hsl(0, 0%, 100%);
+  width: 480px;
+  height: 400px;
+  box-shadow: 0 0 30px 0 hsla(293, 16%, 49%, 0.212);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+.btn1,
+.btn2 {
+  width: 25px;
+  height: 25px;
+  cursor: url("./assets/hand-pointer-solid.svg"), auto;
+}
+
+.main-question {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.main-question.last {
+  margin-bottom: 0;
+}
+
+.question {
+  color: hsl(292, 42%, 14%);
+  font-family: "customFont2";
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.question:hover {
+  color: rgb(173, 40, 235);
+  cursor: url("./assets/hand-pointer-solid.svg"), auto;
+}
+
+.faq {
+  font-family: "customFont1";
+  font-size: 50px;
+  color: hsl(292, 42%, 14%);
+}
+
+p {
+  font-family: "customFont3";
+  font-size: 14.5px;
+  color: hsl(292, 16%, 49%);
+  line-height: 1.5;
+}
+
+@media (max-width: 375px) {
+  main {
+    width: 375px;
+    height: 100vh;
+  }
+  .image {
+    width: 900px;
+    height: 324px;
+  }
+  .box {
+    width: 265px;
+    height: 500px;
+    padding: 20px;
+  }
+  img {
+    width: 25px;
+    height: 25px;
+  }
+  .faq {
+    font-size: 30px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .question {
+    margin-right: 10px;
+  }
+}/*# sourceMappingURL=index.css.map */
