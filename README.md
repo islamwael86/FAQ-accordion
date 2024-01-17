@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://islamwael86.github.io/blog-preview-card-main/)
+- Live Site URL: [Add live site URL here](https://islamwael86.github.io/FAQ-accordion/)
 
 ### Built with
 
