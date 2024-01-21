@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Screenshot
 
-[![Desktop.png](https://i.postimg.cc/j53y9tSK/Desktop.png)](https://postimg.cc/sQSBGFW0)
-[![Mobile.png](https://i.postimg.cc/fRs5YW3g/Mobile.png)](https://postimg.cc/w7WhppQh)
+[![Desktop.png](https://i.postimg.cc/0NdtwByR/Desktop.png)](https://postimg.cc/1gXcxMFJ)
+[![Mobile.png](https://i.postimg.cc/VvcnWYGK/Mobile.png)](https://postimg.cc/LYNJHMMP)
 
 ### Links
 

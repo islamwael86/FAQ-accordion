@@ -26,6 +26,7 @@ for (let i = 0; i <= press.length; i++) {
             p[i].style.display = "block";
             btn1[i].style.display = "none";
             btn2[i].style.display = "block";
+            mainQuestion[i].style.removeProperty("margin-bottom");
 
         } else {
             p[i].style.display = "none";
